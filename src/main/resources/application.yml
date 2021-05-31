@@ -1,0 +1,8 @@
+
+spring:
+#加载多个配置文件
+  profiles: 
+    # 引用的其它配置，文件命名规则：application-${profile}.yml，修改active第一个切换环境配置，开发环境dev,生产环境prod
+    active: dev
+    
+    

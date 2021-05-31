@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    database1:
+      url: jdbc:mysql://127.0.0.1:3306/tx2?serverTimezone=GMT%2b8
+      username: root
+      password: hdzfnpy
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    #database2:
+    #  url: jdbc:mysql://192.168.3.155:3306/evrbac?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8&useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull
+    #  username: root
+    #  password: 123456
+    #  driver-class-name: com.mysql.cj.jdbc.Driver
+
+  
